@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.test.studentstest.dto.StudentRequestDto;
-import org.test.studentstest.dto.StudentResponse;
+import org.test.studentstest.dto.StudentResponseDto;
 import org.test.studentstest.service.StudentService;
 
 @RestController
@@ -21,7 +21,7 @@ public class StudentController {
     }
 
     @PostMapping
-    public ResponseEntity<StudentResponse> createStudent(@Valid @RequestBody StudentRequestDto request) {
+    public ResponseEntity<StudentResponseDto> createStudent(@Valid @RequestBody StudentRequestDto request) {
         // TODO: Implement this
         return ResponseEntity.ok().build();
     }

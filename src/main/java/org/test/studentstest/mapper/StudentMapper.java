@@ -1,7 +1,7 @@
 package org.test.studentstest.mapper;
 
 import org.test.studentstest.dto.StudentRequestDto;
-import org.test.studentstest.dto.StudentResponse;
+import org.test.studentstest.dto.StudentResponseDto;
 import org.test.studentstest.model.Student;
 import org.test.studentstest.model.StudentStatus;
 
@@ -19,8 +19,8 @@ public final class StudentMapper {
         return s;
     }
 
-    public static StudentResponse toResponse(Student s) {
-        StudentResponse resp = new StudentResponse();
+    public static StudentResponseDto toResponse(Student s) {
+        StudentResponseDto resp = new StudentResponseDto();
         resp.setId(s.getId());
         resp.setFirstName(s.getFirstName());
         resp.setLastName(s.getLastName());
