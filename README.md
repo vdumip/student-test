@@ -16,4 +16,7 @@ Build a Spring Boot application to manage students and classes with full CRUD op
 
 Start with finding TO-DO's in the code, if you feel like something is off, feel free to question it, good luck!
 
+! AI Disclaimer !
+AI usage is not prohibited during the test; However we strongly advise going for whole task generation, try to stick to small code parts (methods, repetitve code, etc)/questions you might have instead of googling.
+
 ![chart.png](chart.png)
