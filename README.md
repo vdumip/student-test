@@ -15,3 +15,5 @@ Build a Spring Boot application to manage students and classes with full CRUD op
 4. Feel free to add anything else you consider important in this context.
 
 Start with finding TO-DO's in the code, if you feel like something is off, feel free to question it, good luck!
+
+![chart.png](chart.png)
