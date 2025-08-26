@@ -1,6 +1,6 @@
 package org.test.studentstest.mapper;
 
-import org.test.studentstest.dto.StudentCreateRequest;
+import org.test.studentstest.dto.StudentRequestDto;
 import org.test.studentstest.dto.StudentResponse;
 import org.test.studentstest.model.Student;
 import org.test.studentstest.model.StudentStatus;
@@ -9,7 +9,7 @@ public final class StudentMapper {
 
     private StudentMapper() {}
 
-    public static Student toEntity(StudentCreateRequest req) {
+    public static Student toEntity(StudentRequestDto req) {
         Student s = new Student();
         s.setFirstName(normalize(req.getFirstName()));
         s.setLastName(normalize(req.getLastName()));

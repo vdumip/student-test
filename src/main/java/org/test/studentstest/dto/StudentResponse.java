@@ -6,7 +6,7 @@ import java.time.Instant;
 import java.time.LocalDate;
 import java.util.UUID;
 
-public class StudentResponse {
+public class StudentResponseDto {
     private UUID id;
     private String firstName;
     private String lastName;
@@ -16,7 +16,7 @@ public class StudentResponse {
     private Instant createdAt;
     private Instant updatedAt;
 
-    public StudentResponse() {}
+    public StudentResponseDto() {}
 
     public UUID getId() { return id; }
     public void setId(UUID id) { this.id = id; }

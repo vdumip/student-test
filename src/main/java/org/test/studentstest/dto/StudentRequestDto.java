@@ -4,7 +4,7 @@ import org.test.studentstest.model.StudentStatus;
 
 import java.time.LocalDate;
 
-public class StudentCreateRequest {
+public class StudentRequestDto {
 
     private String firstName;
     private String lastName;
@@ -12,7 +12,7 @@ public class StudentCreateRequest {
     private LocalDate dateOfBirth;
     private StudentStatus status;
 
-    public StudentCreateRequest() {
+    public StudentRequestDto() {
     }
 
     public String getFirstName() {
