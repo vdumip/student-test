@@ -12,8 +12,7 @@ public class StudentRequestDto {
     private LocalDate dateOfBirth;
     private StudentStatus status;
 
-    public StudentRequestDto() {
-    }
+    public StudentRequestDto() {}
 
     public String getFirstName() {
         return firstName;
